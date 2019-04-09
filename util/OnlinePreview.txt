@@ -1,0 +1,7 @@
+使用openoffice方式实现word预览
+
+安装openoffice并启动
+
+openoffice官网下载 http://www.openoffice.org/zh-cn/download/
+
+下载完后在program目录下进入cmd，输入: soffice -headless -accept=“socket,host=127.0.0.1,port=8100;urp;” -nofirststartwizard
